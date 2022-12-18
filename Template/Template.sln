@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{15BD75D2-2758-4DFF-9106-BBDDFAA8141D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F144F286-3561-417D-A0B5-318D8A97027A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPR.Templates", "Source\SPR.Templates\SPR.Templates.csproj", "{66B71781-87DF-4D71-A89B-C834D962F100}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservice", "Microservice", "{E66FE90E-B122-4583-8E54-6EED78DCF89B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{C7012E1F-0E75-43B9-91FD-8F456692A3C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C2DB47CF-7628-454F-86AB-9C0581D8D0A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".template.config", ".template.config", "{B2BC2680-5CE9-4184-9B29-CEEB76C00A24}"
+	ProjectSection(SolutionItems) = preProject
+		Source\SPR.Templates\Microservice\.template.config\dotnetcli.host.json = Source\SPR.Templates\Microservice\.template.config\dotnetcli.host.json
+		Source\SPR.Templates\Microservice\.template.config\ide.host.json = Source\SPR.Templates\Microservice\.template.config\ide.host.json
+		Source\SPR.Templates\Microservice\.template.config\template.json = Source\SPR.Templates\Microservice\.template.config\template.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice", "Source\SPR.Templates\Microservice\Source\Microservice\Microservice.csproj", "{FFC3D274-CD24-4C19-8D99-B67CA23BC52F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66B71781-87DF-4D71-A89B-C834D962F100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B71781-87DF-4D71-A89B-C834D962F100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B71781-87DF-4D71-A89B-C834D962F100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66B71781-87DF-4D71-A89B-C834D962F100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFC3D274-CD24-4C19-8D99-B67CA23BC52F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFC3D274-CD24-4C19-8D99-B67CA23BC52F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFC3D274-CD24-4C19-8D99-B67CA23BC52F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFC3D274-CD24-4C19-8D99-B67CA23BC52F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{66B71781-87DF-4D71-A89B-C834D962F100} = {15BD75D2-2758-4DFF-9106-BBDDFAA8141D}
+		{E66FE90E-B122-4583-8E54-6EED78DCF89B} = {15BD75D2-2758-4DFF-9106-BBDDFAA8141D}
+		{C7012E1F-0E75-43B9-91FD-8F456692A3C7} = {E66FE90E-B122-4583-8E54-6EED78DCF89B}
+		{C2DB47CF-7628-454F-86AB-9C0581D8D0A0} = {E66FE90E-B122-4583-8E54-6EED78DCF89B}
+		{B2BC2680-5CE9-4184-9B29-CEEB76C00A24} = {E66FE90E-B122-4583-8E54-6EED78DCF89B}
+		{FFC3D274-CD24-4C19-8D99-B67CA23BC52F} = {C7012E1F-0E75-43B9-91FD-8F456692A3C7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68BD90CE-C8EF-4084-BF05-95E7831C2C44}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Pradeepraja Selvam",
+  "classifications": [ ".NET Core", "Cloud", "Service", "Web" ],
+  "name": "ASP.NET Core Web Api",
+  "description": "A solution and project for creating and publishing an Open API (Swagger) based API.",
+  "identity": "Dotnet.PradeeprajaSelvam.API.CSharp",
+  "shortName": "Microservice",
+  "defaultName": "Microservice",
+  "tags": {
+    "language": "C#",
+    "type": "solution"
+  },
+  "sourceName": "Microservice",
+  "preferNameDirectory": true,
+  "primaryOutputs": [ { "path": "Microservice.sln" } ],
+  "symbols": {
+    "Title": {
+      "type": "parameter",
+      "datatype": "string",
+      "defaultValue": "Project Title",
+      "replaces": "PROJECT-TITLE",
+      "description": "The name of the project which determines the assembly product name. If the Swagger feature is enabled, shows the title on the Swagger UI."
+    },
+    "TitleXmlEncoded": {
+      "type": "derived",
+      "replaces": "PROJECT-TITLE-XML",
+      "valueSource": "Title",
+      "valueTransform": "xmlEncode"
+    },
+    "Description": {
+      "type": "parameter",
+      "datatype": "string",
+      "defaultValue": "Project Description",
+      "replaces": "PROJECT-DESCRIPTION",
+      "description": "A description of the project which determines the assembly description. If the Swagger feature is enabled, shows the description on the Swagger UI."
+    },
+    "DescriptionXmlEncoded": {
+      "type": "derived",
+      "replaces": "PROJECT-DESCRIPTION-XML",
+      "valueSource": "Description",
+      "valueTransform": "xmlEncode"
+    },
+    "Author": {
+      "type": "parameter",
+      "datatype": "string",
+      "defaultValue": "Project Author",
+      "replaces": "PROJECT-AUTHOR",
+      "description": "The name of the author of the project which determines the assembly author, company and copyright information."
+    },
+    "AuthorXmlEncoded": {
+      "type": "derived",
+      "replaces": "PROJECT-AUTHOR-XML",
+      "valueSource": "Author",
+      "valueTransform": "xmlEncode"
+    },
+    "Contact": {
+      "type": "parameter",
+      "datatype": "string",
+      "defaultValue": "[user@example.com|@ExampleUser]",
+      "replaces": "PROJECT-CONTACT",
+      "description": "The contact details to use if someone wants to contact you about a security vulnerability or code of conduct issues."
+    },
+    "ContactXmlEncoded": {
+      "type": "derived",
+      "replaces": "PROJECT-CONTACT-XML",
+      "valueSource": "Contact",
+      "valueTransform": "xmlEncode"
+    }
+  }
+}

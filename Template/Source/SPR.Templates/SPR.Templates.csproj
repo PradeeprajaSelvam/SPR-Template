@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Version>1.0.4</Version>
+	</PropertyGroup>
+
+	<ItemGroup Label="Files">
+		<Content Include="**\*" Exclude="**\bin\**\*;**\obj\**\*;**\.vs\**\*" />
+		<Compile Remove="**\*" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<Content Include="Microservice\.template.config\dotnetcli.host.json" />
+		<Content Include="Microservice\.template.config\ide.host.json" />
+		<Content Include="Microservice\.template.config\PradeeprajaS.png" />
+		<Content Include="Microservice\.template.config\template.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="Microservice\Tests\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="Microservice\Microservice.sln" />
+	</ItemGroup>
+
+</Project>
