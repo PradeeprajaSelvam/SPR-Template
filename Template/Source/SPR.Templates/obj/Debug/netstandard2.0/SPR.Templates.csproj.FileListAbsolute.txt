@@ -1,0 +1,10 @@
+C:\SPR-Template\Template\Source\SPR.Templates\bin\Debug\netstandard2.0\SPR.Templates.deps.json
+C:\SPR-Template\Template\Source\SPR.Templates\bin\Debug\netstandard2.0\SPR.Templates.dll
+C:\SPR-Template\Template\Source\SPR.Templates\bin\Debug\netstandard2.0\SPR.Templates.pdb
+C:\SPR-Template\Template\Source\SPR.Templates\obj\Debug\netstandard2.0\SPR.Templates.csproj.AssemblyReference.cache
+C:\SPR-Template\Template\Source\SPR.Templates\obj\Debug\netstandard2.0\SPR.Templates.GeneratedMSBuildEditorConfig.editorconfig
+C:\SPR-Template\Template\Source\SPR.Templates\obj\Debug\netstandard2.0\SPR.Templates.AssemblyInfoInputs.cache
+C:\SPR-Template\Template\Source\SPR.Templates\obj\Debug\netstandard2.0\SPR.Templates.AssemblyInfo.cs
+C:\SPR-Template\Template\Source\SPR.Templates\obj\Debug\netstandard2.0\SPR.Templates.csproj.CoreCompileInputs.cache
+C:\SPR-Template\Template\Source\SPR.Templates\obj\Debug\netstandard2.0\SPR.Templates.dll
+C:\SPR-Template\Template\Source\SPR.Templates\obj\Debug\netstandard2.0\SPR.Templates.pdb

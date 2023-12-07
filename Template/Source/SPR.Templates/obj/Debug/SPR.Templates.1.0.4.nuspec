@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SPR.Templates</id>
+    <version>1.0.4</version>
+    <authors>SPR.Templates</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+    <contentFiles>
+      <files include="any/netstandard2.0/Microservice/.template.config/dotnetcli.host.json" buildAction="Content" />
+      <files include="any/netstandard2.0/Microservice/.template.config/ide.host.json" buildAction="Content" />
+      <files include="any/netstandard2.0/Microservice/.template.config/PradeeprajaS.png" buildAction="Content" />
+      <files include="any/netstandard2.0/Microservice/.template.config/template.json" buildAction="Content" />
+      <files include="any/netstandard2.0/Microservice/Microservice.sln" buildAction="Content" />
+      <files include="any/netstandard2.0/Microservice/Source/Microservice/appsettings.Development.json" buildAction="Content" />
+      <files include="any/netstandard2.0/Microservice/Source/Microservice/appsettings.json" buildAction="Content" />
+      <files include="any/netstandard2.0/Microservice/Source/Microservice/Controllers/WeatherForecastController.cs" buildAction="Content" />
+      <files include="any/netstandard2.0/Microservice/Source/Microservice/Microservice.csproj" buildAction="Content" />
+      <files include="any/netstandard2.0/Microservice/Source/Microservice/Program.cs" buildAction="Content" />
+      <files include="any/netstandard2.0/Microservice/Source/Microservice/Properties/launchSettings.json" buildAction="Content" />
+      <files include="any/netstandard2.0/Microservice/Source/Microservice/WeatherForecast.cs" buildAction="Content" />
+      <files include="any/netstandard2.0/SPR.Templates.csproj" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\SPR-Template\Template\Source\SPR.Templates\bin\Debug\netstandard2.0\SPR.Templates.dll" target="lib\netstandard2.0\SPR.Templates.dll" />
+    <file src="C:\SPR-Template\Template\Source\SPR.Templates\Microservice\.template.config\dotnetcli.host.json" target="content\Microservice\.template.config\dotnetcli.host.json" />
+    <file src="C:\SPR-Template\Template\Source\SPR.Templates\Microservice\.template.config\dotnetcli.host.json" target="contentFiles\any\netstandard2.0\Microservice\.template.config\dotnetcli.host.json" />
+    <file src="C:\SPR-Template\Template\Source\SPR.Templates\Microservice\.template.config\ide.host.json" target="content\Microservice\.template.config\ide.host.json" />
+    <file src="C:\SPR-Template\Template\Source\SPR.Templates\Microservice\.template.config\ide.host.json" target="contentFiles\any\netstandard2.0\Microservice\.template.config\ide.host.json" />
+    <file src="C:\SPR-Template\Template\Source\SPR.Templates\Microservice\.template.config\PradeeprajaS.png" target="content\Microservice\.template.config\PradeeprajaS.png" />
+    <file src="C:\SPR-Template\Template\Source\SPR.Templates\Microservice\.template.config\PradeeprajaS.png" target="contentFiles\any\netstandard2.0\Microservice\.template.config\PradeeprajaS.png" />
+    <file src="C:\SPR-Template\Template\Source\SPR.Templates\Microservice\.template.config\template.json" target="content\Microservice\.template.config\template.json" />
+    <file src="C:\SPR-Template\Template\Source\SPR.Templates\Microservice\.template.config\template.json" target="contentFiles\any\netstandard2.0\Microservice\.template.config\template.json" />
+    <file src="C:\SPR-Template\Template\Source\SPR.Templates\Microservice\Microservice.sln" target="content\Microservice\Microservice.sln" />
+    <file src="C:\SPR-Template\Template\Source\SPR.Templates\Microservice\Microservice.sln" target="contentFiles\any\netstandard2.0\Microservice\Microservice.sln" />
+    <file src="C:\SPR-Template\Template\Source\SPR.Templates\Microservice\Source\Microservice\appsettings.Development.json" target="content\Microservice\Source\Microservice\appsettings.Development.json" />
+    <file src="C:\SPR-Template\Template\Source\SPR.Templates\Microservice\Source\Microservice\appsettings.Development.json" target="contentFiles\any\netstandard2.0\Microservice\Source\Microservice\appsettings.Development.json" />
+    <file src="C:\SPR-Template\Template\Source\SPR.Templates\Microservice\Source\Microservice\appsettings.json" target="content\Microservice\Source\Microservice\appsettings.json" />
+    <file src="C:\SPR-Template\Template\Source\SPR.Templates\Microservice\Source\Microservice\appsettings.json" target="contentFiles\any\netstandard2.0\Microservice\Source\Microservice\appsettings.json" />
+    <file src="C:\SPR-Template\Template\Source\SPR.Templates\Microservice\Source\Microservice\Controllers\WeatherForecastController.cs" target="content\Microservice\Source\Microservice\Controllers\WeatherForecastController.cs" />
+    <file src="C:\SPR-Template\Template\Source\SPR.Templates\Microservice\Source\Microservice\Controllers\WeatherForecastController.cs" target="contentFiles\any\netstandard2.0\Microservice\Source\Microservice\Controllers\WeatherForecastController.cs" />
+    <file src="C:\SPR-Template\Template\Source\SPR.Templates\Microservice\Source\Microservice\Microservice.csproj" target="content\Microservice\Source\Microservice\Microservice.csproj" />
+    <file src="C:\SPR-Template\Template\Source\SPR.Templates\Microservice\Source\Microservice\Microservice.csproj" target="contentFiles\any\netstandard2.0\Microservice\Source\Microservice\Microservice.csproj" />
+    <file src="C:\SPR-Template\Template\Source\SPR.Templates\Microservice\Source\Microservice\Program.cs" target="content\Microservice\Source\Microservice\Program.cs" />
+    <file src="C:\SPR-Template\Template\Source\SPR.Templates\Microservice\Source\Microservice\Program.cs" target="contentFiles\any\netstandard2.0\Microservice\Source\Microservice\Program.cs" />
+    <file src="C:\SPR-Template\Template\Source\SPR.Templates\Microservice\Source\Microservice\Properties\launchSettings.json" target="content\Microservice\Source\Microservice\Properties\launchSettings.json" />
+    <file src="C:\SPR-Template\Template\Source\SPR.Templates\Microservice\Source\Microservice\Properties\launchSettings.json" target="contentFiles\any\netstandard2.0\Microservice\Source\Microservice\Properties\launchSettings.json" />
+    <file src="C:\SPR-Template\Template\Source\SPR.Templates\Microservice\Source\Microservice\WeatherForecast.cs" target="content\Microservice\Source\Microservice\WeatherForecast.cs" />
+    <file src="C:\SPR-Template\Template\Source\SPR.Templates\Microservice\Source\Microservice\WeatherForecast.cs" target="contentFiles\any\netstandard2.0\Microservice\Source\Microservice\WeatherForecast.cs" />
+    <file src="C:\SPR-Template\Template\Source\SPR.Templates\SPR.Templates.csproj" target="content\SPR.Templates.csproj" />
+    <file src="C:\SPR-Template\Template\Source\SPR.Templates\SPR.Templates.csproj" target="contentFiles\any\netstandard2.0\SPR.Templates.csproj" />
+  </files>
+</package>
